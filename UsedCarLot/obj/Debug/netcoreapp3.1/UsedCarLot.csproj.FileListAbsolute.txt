@@ -1,0 +1,14 @@
+C:\Users\HPHAN1\devbuild\LAB_UsedCarLot\UsedCarLot\bin\Debug\netcoreapp3.1\UsedCarLot.exe
+C:\Users\HPHAN1\devbuild\LAB_UsedCarLot\UsedCarLot\bin\Debug\netcoreapp3.1\UsedCarLot.deps.json
+C:\Users\HPHAN1\devbuild\LAB_UsedCarLot\UsedCarLot\bin\Debug\netcoreapp3.1\UsedCarLot.runtimeconfig.json
+C:\Users\HPHAN1\devbuild\LAB_UsedCarLot\UsedCarLot\bin\Debug\netcoreapp3.1\UsedCarLot.runtimeconfig.dev.json
+C:\Users\HPHAN1\devbuild\LAB_UsedCarLot\UsedCarLot\bin\Debug\netcoreapp3.1\UsedCarLot.dll
+C:\Users\HPHAN1\devbuild\LAB_UsedCarLot\UsedCarLot\bin\Debug\netcoreapp3.1\UsedCarLot.pdb
+C:\Users\HPHAN1\devbuild\LAB_UsedCarLot\UsedCarLot\obj\Debug\netcoreapp3.1\UsedCarLot.csproj.AssemblyReference.cache
+C:\Users\HPHAN1\devbuild\LAB_UsedCarLot\UsedCarLot\obj\Debug\netcoreapp3.1\UsedCarLot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HPHAN1\devbuild\LAB_UsedCarLot\UsedCarLot\obj\Debug\netcoreapp3.1\UsedCarLot.AssemblyInfoInputs.cache
+C:\Users\HPHAN1\devbuild\LAB_UsedCarLot\UsedCarLot\obj\Debug\netcoreapp3.1\UsedCarLot.AssemblyInfo.cs
+C:\Users\HPHAN1\devbuild\LAB_UsedCarLot\UsedCarLot\obj\Debug\netcoreapp3.1\UsedCarLot.csproj.CoreCompileInputs.cache
+C:\Users\HPHAN1\devbuild\LAB_UsedCarLot\UsedCarLot\obj\Debug\netcoreapp3.1\UsedCarLot.dll
+C:\Users\HPHAN1\devbuild\LAB_UsedCarLot\UsedCarLot\obj\Debug\netcoreapp3.1\UsedCarLot.pdb
+C:\Users\HPHAN1\devbuild\LAB_UsedCarLot\UsedCarLot\obj\Debug\netcoreapp3.1\UsedCarLot.genruntimeconfig.cache
