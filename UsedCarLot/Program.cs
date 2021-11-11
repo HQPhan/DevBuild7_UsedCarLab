@@ -7,28 +7,33 @@ namespace UsedCarLot
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Max's New & Used Cars!");
-            Console.WriteLine();
-
             CarLot cl = new CarLot();
-            cl.PrintInventory();
-
-            Car c = new Car();
-            Console.WriteLine(c);
-
-            int buy = int.Parse(GetInput("What car would you like? "));
-            Console.WriteLine(cl.PickCar(buy));
-
-
-            
-            
-        }
-
-        public static string GetInput(string prompt)
-        {
-            Console.WriteLine(prompt);
-            string input = Console.ReadLine();
-            return input;
-        }
+            Console.WriteLine("Welcome to H&R's New & Used Cars!");
+          
+            bool goOn = true;
+            while (goOn)
+            {
+                Console.WriteLine();
+                Console.WriteLine(cl.PrintInventory());                               
+                int userNum = cl.SelectMenu();
+                
+                if (userNum <= cl.Cars.Count)
+                {
+                    cl.BuyCar(userNum);
+                }
+                else if (userNum == (cl.Cars.Count + 1))
+                {
+                    Console.WriteLine("Would you like to sell a new or used car? ");
+                    cl.SellCar();
+                }
+                else if (userNum == (cl.Cars.Count + 2))
+                {
+                    Console.WriteLine("Thank you for shopping at Max's New and Used Cars! Come again!");
+                    break;
+                }
+                               
+                goOn = cl.UserContinue();
+            }
+        }      
     }
 }

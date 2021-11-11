@@ -11,7 +11,6 @@ namespace UsedCarLot
         public string Model { get; set; }
         public int Year { get; set; }
         public decimal Price { get; set; }
-        public Menu Add { get; set; }
 
 
         //Constructor with four properties
@@ -22,22 +21,21 @@ namespace UsedCarLot
             this.Year = Year;
             this.Price = Price;
         }
-        //Empty Constructor
-        public Car(Menu Add)
-        {
-            this.Add = Add;
-        }
+
         public Car()
         {
-
+            Make = "Ford";
+            Model = "Escape";
+            Year = 2001;
+            Price = 3500;
         }
 
         public override string ToString()
         {
-                string output = $"{Make}".PadRight(10);
-                output += $"{Model}".PadRight(10);
-                output += $"{Year}".PadRight(10);
-                output += $"{Price}".PadRight(10);
+                string output = $"Make: {Make}\t".PadRight(10);
+                output += $"Model: {Model}\t".PadRight(10);
+                output += $"Year: {Year}\t".PadRight(10);
+                output += $"Price: {Price}\t".PadRight(10);
                 return output;
         }
 
